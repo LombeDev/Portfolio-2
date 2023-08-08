@@ -47,7 +47,7 @@ navLinks.forEach((n) => n.addEventListener("click", () => { navMenu.classList.re
 /*===== COPY Email =====*/
 const copy = document.getElementById("copy");
 copy.addEventListener("click", () => {
-  navigator.clipboard.writeText("kasulaarunteja@gmail.com");
+  navigator.clipboard.writeText("lombeicloud@gmail.com");
   copy.innerHTML = "copied";
   setTimeout(() => {
     copy.innerHTML = null;
@@ -91,7 +91,7 @@ sr.reveal(".project-img", { interval: 200 });
   }
 
 
-  var messageArr = ["MERN Developer", "Frontend Developer", "Backend Developer"];
+  var messageArr = ["ICT Teacher","Frontend Developer", "Graphic designer"];
   var textPosition = 0;
   var speed = 200;
 
