@@ -8,7 +8,12 @@ document.addEventListener("DOMContentLoaded", function() {
     var nameContainer = document.getElementById("nameContainer");
     
     // Set the name content
-    nameContainer.innerHTML = "Lombe";
+    nameContainer.textContent = "Lombe";
+    
+    // Remove the name element after a brief delay
+    setTimeout(function() {
+      nameContainer.style.display = "none";
+    }, 1000); // Adjust the time as needed
   }, 2000); // Adjust the time as needed
 });
 
