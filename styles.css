@@ -24,7 +24,33 @@
   font-family: Cursive, 'Helvetica', sans-serif;
   color: #333;
   margin-top: 10px;
+
+.button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px; /* Adjust as needed */
 }
+
+.home-social {
+  margin-top: 20px; /* Adjust as needed */
+  text-align: center;
+}
+
+.home-social-icon {
+  font-size: 24px;
+  margin: 0 10px;
+}
+
+.home-img {
+  text-align: center;
+  margin-top: 20px; /* Adjust as needed */
+}
+
+.home-img img {
+  max-width: 100%;
+}
+  
+
 
 
 
