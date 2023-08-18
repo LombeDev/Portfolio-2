@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var nameContainer = document.getElementById("nameContainer");
     
     // Set the name content
-    nameContainer.innerHTML = "Lombe Simakando";
+    nameContainer.innerHTML = "Lombe";
   }, 2000); // Adjust the time as needed
 });
 
