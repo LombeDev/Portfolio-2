@@ -1,3 +1,21 @@
+document.addEventListener("DOMContentLoaded", function() {
+  // Simulate content loading delay
+  setTimeout(function() {
+    // Hide the loading animation
+    document.getElementById("loadingAnimation").style.display = "none";
+    
+    // Get the name container
+    var nameContainer = document.getElementById("nameContainer");
+    
+    // Set the name content
+    nameContainer.innerHTML = "Lombe Simakando";
+  }, 2000); // Adjust the time as needed
+});
+
+
+
+
+
 /*===== MENU SHOW =====*/
 const showMenu = (toggleId, navId) => {
   const toggle = document.getElementById(toggleId),
