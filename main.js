@@ -1,20 +1,26 @@
 document.addEventListener("DOMContentLoaded", function() {
+  // Get the loading animation and name elements
+  var loadingAnimation = document.getElementById("loadingAnimation");
+  var nameContainer = document.getElementById("nameContainer");
+  
   // Simulate content loading delay
   setTimeout(function() {
     // Hide the loading animation
-    document.getElementById("loadingAnimation").style.display = "none";
-    
-    // Get the name container
-    var nameContainer = document.getElementById("nameContainer");
+    loadingAnimation.style.display = "none";
     
     // Set the name content
-    nameContainer.textContent = "Lombe";
+    nameContainer.textContent = "Lombe Simakando";
     
-    // Remove the name element after a brief delay
+    // Display both the loading animation and the name
+    loadingAnimation.style.display = "block";
+    nameContainer.style.display = "block";
+    
+    // Remove the name and animation elements after a brief delay
     setTimeout(function() {
+      loadingAnimation.style.display = "none";
       nameContainer.style.display = "none";
     }, 1000); // Adjust the time as needed
-  }, 2000); // Adjust the time as needed
+  }, 1000); // Adjust the time as needed
 });
 
 
